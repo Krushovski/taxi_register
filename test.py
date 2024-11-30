@@ -8,6 +8,8 @@ from time import sleep
 driver = webdriver.Chrome()
 driver.get("https://taxireg.infosys.bg/pub/register")
 
+#THIS CODE IS JUST CHECKING IF THE SCROLL AUTOMATION WORKS OR NOT. THE PRINT STATEMENT WOULD RETURN TRUE IF IT DOES BUT IT CURRENTLY RETURNS FALSE BECAUSE THE PAGE HEIGHT STAYS THE SAME!!!
+
 # Get initial scroll height
 initial_height = driver.execute_script("return document.documentElement.scrollHeight")
 
